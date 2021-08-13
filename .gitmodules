@@ -1,0 +1,3 @@
+[submodule "themes/npqhugo"]
+	path = themes/npqhugo
+	url = https://github.com/ahmedsaadxyz/npqhugo.git
