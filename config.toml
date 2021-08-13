@@ -1,0 +1,17 @@
+title = "My New Hugo Site"
+baseurl = "https://black-river-0f4a65810.azurestaticapps.net/"
+languageCode = "en-us"
+title = "Hamburg theme example"
+copyright = "&copy; Lorem ipsum ... and so on ..."
+
+theme = "hamburg"
+
+[menu]
+	[[menu.main]]
+		name = "About"
+		identifier = "about"
+		url = "pages/about"
+
+[params]
+	subtitle = "The great example site of the hugo-hamburg-theme"
+	mainSections = ["posts"]
