@@ -1,4 +1,4 @@
-baseurl = "http://example.com/"
+baseurl = "https://black-river-0f4a65810.azurestaticapps.net/"
 # If you use "hugo server" you might want to use this entry:
 #baseurl = "http://localhost:1313/"
 title = "Hamburg theme example"

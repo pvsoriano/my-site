@@ -3,17 +3,24 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Hamburg theme example" />
+  <meta property="og:title" content=" About &middot;  Hamburg theme example" />
   
   <meta property="og:site_name" content="Hamburg theme example" />
-  <meta property="og:url" content="/" />
+  <meta property="og:url" content="/pages/about/" />
   
   
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
+    
+    <meta property="og:article:published_time" content="2018-09-10T19:04:46&#43;02:00" />
+    
+      <meta property="og:article:tag" content="page" />
+    
+      <meta property="og:article:tag" content="about" />
+    
   
 
   <title>
-     Hamburg theme example
+     About &middot;  Hamburg theme example
   </title>
 
   <link rel="alternative stylesheet" href="/css/bootstrap.min.css" />
@@ -28,8 +35,6 @@
   
 
   
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Hamburg theme example" />
-  
 </head>
 <body>
   
@@ -42,6 +47,11 @@
           The great example site of the hugo-hamburg-theme
         </h3>
       
+      
+        <a class="btn btn-default btn-home" href="/">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+          &nbsp;Home
+        </a>
       
       
       <div class="navbar-container">
@@ -66,71 +76,65 @@
   </header>
   <main class="container">
 
-<div class="article-list">
-  
-  
+
+
+<article>
+  <header class="article-title">
+    <h1 class="text-primary">About</h1>
+  </header>
+  <div class="delimiter"></div>
+  <section>
+    <p>This theme can do pages as well. WOW.</p>
+
+  </section>
+  <div class="clearfix">
     
-    <article>
-  <header>
-    <h1 class="li-h1"><a href="/posts/actual/">Actual post</a></h1>
-    <div class="clearfix">
       <div class="post-date pull-left">
-        <span class="li-small">
+        <span class="small">
           Posted on
-          Sep 10, 2018 at 18:58
+          Sep 10, 2018 at 19:04
         </span>
       </div>
-    </div>
-  </header>
-
-  
-    <div class="li-content">
-      <div class="summary-container">
-        <p>An actual post with some information on this theme</p>
-        <a class="btn btn-primary" href="/posts/actual/">
-          Read more <span aria-hidden="true">&rarr;</span>
-        </a>
-      </div>
+    
+    <div class="pull-right">
       
-    </div>
-  
-</article>
-
-  
-    
-      <div class="delimiter"></div>
-    
-    <article>
-  <header>
-    <h1 class="li-h1"><a href="/posts/some-post/">Some example Post</a></h1>
-    <div class="clearfix">
-      <div class="post-date pull-left">
-        <span class="li-small">
-          Posted on
-          Sep 10, 2018 at 18:36
+        <span class="post-tag small">
+          <a href="/tags/page/">
+            #page
+          </a>
         </span>
-      </div>
-    </div>
-  </header>
-
-  
-    <div class="li-content">
-      <div class="summary-container">
-        <p>This is a placeholder article. Nothing interesting here &hellip;</p>
-        <a class="btn btn-primary" href="/posts/some-post/">
-          Read more <span aria-hidden="true">&rarr;</span>
-        </a>
-      </div>
+      
+        <span class="post-tag small">
+          <a href="/tags/about/">
+            #about
+          </a>
+        </span>
       
     </div>
-  
+  </div>
+  <footer>
+    
+	
+    <div class="delimiter"></div>
+    <div class="pager-container">
+      
+        <a class="btn btn-primary btn-older-posts disabled" href="#">
+          <div>
+            <span aria-hidden="true">&larr;</span> Older Posts
+          </div>
+        </a>
+      
+      
+        <a class="btn btn-primary btn-newer-posts disabled" href="#">
+          <div>
+            Newer Posts <span aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+      
+    </div>
+  </footer>
 </article>
-
-  
-</div>
-
-  
-
+<div class="delimiter"></div>
 
   </main>
   <footer class="container global-footer">
